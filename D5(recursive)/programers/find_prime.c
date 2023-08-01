@@ -54,9 +54,9 @@ void permutation(int n, int r, int depth) {
 int main() {
     Eratos();
     scanf("%s", str);
-    for(int i=0; i<=strlen(str); i++)
+    /* for(int i=0; i<=strlen(str); i++)
         arr[]
     for(int i=0; i<=strlen(str); i++)
-        permutation(strlen(str)/sizeof(int) , i, 0);
+        permutation(strlen(str)/sizeof(int) , i, 0); */
     return 0;
 }
