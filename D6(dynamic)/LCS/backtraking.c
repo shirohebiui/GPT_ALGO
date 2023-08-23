@@ -51,8 +51,8 @@ int main() {
             j--;
         } else {
             stack[top++] = base[j];
+            i--; j--;
         }
-        i--; j--;
     }
     while(top--) {
         printf("%c", stack[top]);
